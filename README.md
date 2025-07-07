@@ -1,5 +1,13 @@
-Olá! Bem-vindo ao meu GitHub :)
+# Teste de Login - SauceDemo
+Este projeto contém um teste automatizado utilizando o Cypress para realizar o login no site SauceDemo.
 
-Sou profissional da área de telecomunicações, atualmente em transição de carreira para a área de Qualidade de Software (QA), com foco em automação de testes. Tenho me dedicado ao estudo e à prática de ferramentas como Cypress e JavaScript, além de aprofundar meus conhecimentos em testes manuais, automação de testes e testes de acessibilidade. Aqui você encontra meus projetos de estudo e prática em automação e testes ponta a ponta. Estou em constante evolução e aprendizado. Aprendendo na prática, construindo com código.
+# Descrição
+O teste verifica se a funcionalidade de login no site SauceDemo funciona corretamente. Ele realiza a seguinte sequência de ações:
+1. Acessa o site SauceDemo.
+2. Preenche o campo de usuário com "standard_user" e o campo de senha com "secret_sauce".
+3. Clica no botão de login.
+4. Verifica se o usuário foi redirecionado para a página de inventário (com URL contendo "/inventory.html").
+5. Verifica se o título "Products" está visível na página de inventário.
 
-Obrigado por visitar!
+# Pré-requisitos
+Ter o Cypress instalado no seu projeto.
